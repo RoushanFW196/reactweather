@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "userdetail": {
+        "name": "",
+        "email": "",
+        "mobile": "",
+        "password": "",
+        "city": ""
+      },
+      "id": 1
+    },
+    {
+      "userdetail": {
+        "name": "",
+        "email": "",
+        "mobile": "",
+        "password": "",
+        "city": ""
+      },
+      "id": 2
+    },
+    {
+      "userdetail": {
+        "name": "",
+        "email": "",
+        "mobile": "",
+        "password": "",
+        "city": ""
+      },
+      "id": 3
+    },
+    {
+      "userdetail": {
+        "name": "",
+        "email": "",
+        "mobile": "",
+        "password": "",
+        "city": ""
+      },
+      "id": 4
+    }
+  ]
+}
