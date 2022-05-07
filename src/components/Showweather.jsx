@@ -22,7 +22,7 @@ const Showweather = () => {
 
   return <div className="showweather-container">
        <h3> Location:{data?.location?.name} ,{data?.location?.country}</h3> 
-         <img src={data?.current?.condition?.icon}/>
+         <img src={data?.current?.condition?.icon} alt="img"/>
         <p> temp:{data?.current?.temp_c}C</p>
         <p>wind:{data?.current?.wind_kph} km/hr</p>
          <p>Date/Time:{data?.location?.localtime}</p>

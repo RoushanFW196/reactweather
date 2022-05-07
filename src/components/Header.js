@@ -20,14 +20,14 @@ const Header = () => {
    
       <nav className="navbar navbar-dark bg-primary">
   <div className="container-fluid">
-    <a className="navbar-brand">Weather App</a>
+    <Link to="/" className="navbar-brand">Weather App</Link>
     <form className="d-flex">
       <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" onChange={(e)=>setQuery(e.target.value)}/>
       <button className="btn btn-outline-success" type="submit" onClick={(e)=>handlesearch(e)}>Search</button>
     </form>
     <Link to="/login" className="navbar-brand">Login</Link>
     <Link to="/signup" className="navbar-brand">Signup</Link>
-    <a className="navbar-brand">user</a>
+    <a href="#" className="navbar-brand">user</a>
   </div>
 </nav>
 
