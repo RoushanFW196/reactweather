@@ -25,8 +25,7 @@ const Signup = () => {
 
   const [user,setUser]=useState(initialState);
 
-  const {updateuserdata}=useContext(Usercontext);
-
+ 
 
   const inputevent=(e)=>{
       const{name,value}=e.target;
@@ -35,7 +34,7 @@ const Signup = () => {
 
   const handlesubmit=()=>{
       console.log(user)
-      updateuserdata(user);
+    //console.log(setUser)  updateuserdata(user);
      //getUser();
   }
 
@@ -48,26 +47,21 @@ const Signup = () => {
      
   
    const Signupuser=()=>{
-    axios.post('http://localhost:3004/users', {userdetail:user})
+    axios.post('http://localhost:3004/users', {userdetails:user})
     .then(function (response) {
-      console.log(response.data)
+      console.log(response.data,"axios")
       
     })
     .catch(function (error) {
       console.log(error);
     });
+
+    
+
   }
  
 
 
-  async function getUser() {
-    try {
-      const response = await axios.get('http://localhost:3004/users');
-      console.log(response.data,"dattaaa");
-    } catch (error) {
-      console.error(error);
-    }
-  }
      
 
 

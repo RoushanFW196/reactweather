@@ -2,7 +2,10 @@
 .showweather-container{
 width:800px;
 height:400px;
-background-color:aqua;
+/* background-color:aqua; */
+color:white;
+font-size:25px;
+font-weight:bold;
 margin:0 auto;
 align-items:center;
 text-align:center;
